@@ -20,6 +20,9 @@ inherit extrausers
 IMAGE_ROOTFS_SIZE ?= "8192"
 IMAGE_ROOTFS_EXTRA_SPACE:append = "${@bb.utils.contains("DISTRO_FEATURES", "systemd", " + 4096", "", d)}"
 
+EXTRA_IMAGE_FEATURES += "ssh-server-dropbear"
+IMAGE_INSTALL += " net-tools"
+
 EXTRA_IMAGE_FEATURES:remove = "debug-tweaks"
 
 EXTRA_USERS_PARAMS = "\
