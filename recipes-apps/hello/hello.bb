@@ -6,7 +6,7 @@ SRC_URI = "file://src"
 S = "${WORKDIR}/src"
 
 do_compile() {
-        ${CXX} ${CXXFLAGS} ${LDFLAGS} -o hello_cpp src/hello.cpp
+        ${CXX} ${CXXFLAGS} ${LDFLAGS} -o hello_cpp hello.cpp
 }
 
 do_install() {
