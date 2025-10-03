@@ -1,5 +1,5 @@
 SUMMARY = "Custom core-image-minimal recipe"
-DESCRIPTION = "Core image minimal including custom executables." 
+DESCRIPTION = "Project demonstrating a basic custom Yocto layer to boot a minimal Linux system with custom users, remote SSH access, and a sample application."
 LICENSE = "MIT"
 
 python do_display_banner() {
