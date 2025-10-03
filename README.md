@@ -1,7 +1,6 @@
 # meta-custom-demo
 
 The **meta-custom-demo** project defines a basic custom Yocto layer to boot a minimal Linux system with custom users, remote SSH access, and a sample application.
----
 
 ## Purpose
 
