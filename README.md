@@ -19,7 +19,7 @@ This layer depends on:
 
 - **Poky**
   - URI: https://git.yoctoproject.org/poky  
-  - branch: `scarthgap` (or your chosen Yocto release branch)
+  - branch: `scarthgap`
 
 - **meta-openembedded**
   - URI: https://git.openembedded.org/meta-openembedded  
